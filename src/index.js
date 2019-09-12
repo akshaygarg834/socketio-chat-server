@@ -74,6 +74,6 @@ io.on("connection", function(socket) {
   });
 
   socket.on("disconnect", function() {
-    console.log("A user disconnected    ", socket.id);
+    console.log("A user disconnected   ", socket.id);
   });
 });
